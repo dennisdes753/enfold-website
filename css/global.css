@@ -723,6 +723,16 @@ footer .about_us ul li a {
     
     .featured_work .imge_section .second_img {
         right: 0px;
+        max-width: 271px;
+        height: 220px;
+        top: 160px;
+        object-fit: cover;
+    }
+
+    .featured_work .imge_section .first_img {
+        max-width: 311px;
+        height: 270px;
+        object-fit: cover;
     }
     
     .customer_partner .img_section {
@@ -740,7 +750,7 @@ footer .about_us ul li a {
     .customer_partner .img_section img:nth-child(6) {
         top: -100px;
         left: 60%;
-        max-width: 180px;
+        max-width: 150px;
     }
 
     .customer_partner .img_section img:nth-child(4) {
@@ -754,13 +764,17 @@ footer .about_us ul li a {
     
     .banner_text .banner_inner_image .center_image {
         right: 10px;
+        max-width: 309px;
     }
 
     .banner_text .banner_inner_image .first_image {
         right: 30px;
+        max-width: 166px;
     }
 
     .banner_text .banner_inner_image .second_image {
-        right: 49%;
+        right: 55%;
+        height: 170px;
+        max-width: 156px;
     }
 }
