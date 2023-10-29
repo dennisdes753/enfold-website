@@ -721,20 +721,6 @@ footer .about_us ul li a {
         padding: 60px 0 270px;
     }
     
-    .featured_work .imge_section .second_img {
-        right: 0px;
-        max-width: 271px;
-        height: 220px;
-        top: 160px;
-        object-fit: cover;
-    }
-
-    .featured_work .imge_section .first_img {
-        max-width: 311px;
-        height: 270px;
-        object-fit: cover;
-    }
-    
     .customer_partner .img_section {
         min-height: 360px;
     }
@@ -762,19 +748,42 @@ footer .about_us ul li a {
         left: 54%;
     }
     
+    
+}
+
+@media (min-width: 320px) and (max-width: 540px){
+    .featured_work .imge_section .second_img {
+            right: 0px;
+            max-width: 271px;
+            height: 220px;
+            top: 160px;
+            object-fit: cover;
+        }
+    .featured_work .imge_section .first_img {
+            max-width: 311px;
+            height: 270px;
+            object-fit: cover;
+        }
     .banner_text .banner_inner_image .center_image {
-        right: 10px;
-        max-width: 309px;
-    }
-
+            right: 10px;
+            max-width: 309px;
+        }
     .banner_text .banner_inner_image .first_image {
-        right: 30px;
-        max-width: 166px;
-    }
-
-    .banner_text .banner_inner_image .second_image {
-        right: 55%;
-        height: 170px;
-        max-width: 156px;
-    }
+            right: 30px;
+            max-width: 166px;
+        }
+    
+        .banner_text .banner_inner_image .second_image {
+            right: 55%;
+            height: 170px;
+            max-width: 156px;
+        }
+    
+        .our_services .heading h4 {
+            font-size: 32px;
+        }
+    
+        .banner_text .banner_inner_text h1 {
+            font-size: 50px;
+        }
 }
